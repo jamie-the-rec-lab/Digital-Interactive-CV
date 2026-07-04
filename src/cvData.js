@@ -31,7 +31,7 @@ export const ROLES = [
     period: "Sep 2023 - Present",
     type: "In-House",
     color: T.blue,
-    logo: "/first-logo.png",
+    logo: import.meta.env.BASE_URL + "first-logo.png",
     logoFallback: "F",
     highlights: [
       "Shaped product direction from a recruiter's perspective - the only practitioner on the founding team.",

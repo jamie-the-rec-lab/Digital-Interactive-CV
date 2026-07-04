@@ -850,7 +850,7 @@ export default function Room3D() {
     const holo = new THREE.Group();
     {
       const img = new Image();
-      img.src = "/first-logo.png";
+      img.src = import.meta.env.BASE_URL + "first-logo.png";
       img.onload = () => {
         const tex = makeTexture(512, 512, (ctx, w, h) => {
           roundRect(ctx, 0, 0, w, h, 90);
